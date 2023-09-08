@@ -307,9 +307,9 @@ class AppStore extends Component {
     this.setState({searchInput:event.target.value})
    }
 
-  getActiveTab = searchApps => {
+  getActiveTab = appsList => {
     const {activeTabId}=this.state
-    const filterApp = searchApps.filter(
+    const filterApp = appsList.filter(
       each => each.category === activeTabId
     )
     return filterApp
