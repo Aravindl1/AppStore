@@ -1,0 +1,46 @@
+.app-container{
+    background-image: linear-gradient( #fff1eb,#ace0f9);
+    box-sizing: content-box;
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.app-heading {
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-top: 28px;
+}
+
+.app-search {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid black;  
+}
+
+.icon {
+    font-size: 16px;
+    margin-left: 6px;
+    
+}
+
+.slide-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0px;
+}
+
